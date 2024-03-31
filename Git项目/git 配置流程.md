@@ -32,3 +32,27 @@ $ cat id_rsa.pub
 $ ssh -T git@github.com
 
 # 使用
+
+1.在github创建仓库，获取git地址
+
+2.在本地工作文件夹初始化仓库
+
+$ git init
+
+3.和远程仓库建立连接
+
+$ git remote add origin git@github.com:yourName/repositoryname.git
+
+4.本地上传至暂存区
+
+$ git add . 
+
+5.添加备注
+
+$ git commit -am "备注信息"
+
+6.上传到远程仓库
+
+$ git push origin master
+
+
