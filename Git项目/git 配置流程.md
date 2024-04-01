@@ -31,7 +31,8 @@ $ cat id_rsa.pub
 
 $ ssh -T git@github.com
 
-# 使用
+# 使用  
+## 本地上传到远程
 
 1.在github创建仓库，获取git地址
 
@@ -54,5 +55,14 @@ $ git commit -am "备注信息"
 6.上传到远程仓库
 
 $ git push origin master
+
+## 创建新的分支  
+创建分支
+$ git branch "分支名"  
+转换分支  
+$ git checkout "branch name"  
+将新的分支上传到远程  
+$ git push origin "branch name"  
+
 
 
